@@ -1,0 +1,15 @@
+.wrapper {
+    height: 100%;
+    padding-inline: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--cl-primary);
+    color: var(--tx-primary);
+}
+
+fa-icon {
+    padding-right: 1rem;
+}

@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <div class="menu">
+    <span>Luiz Carvalho</span>
+    <fa-icon (click)="toggle()" [icon]="faBars"></fa-icon>
+  </div>
+  <div [@openClose]="isOpen ? 'open' : 'closed'" class="menu-tab">
+    <a href="#home" (click)="toggle()">Home</a>
+    <a href="#projects" (click)="toggle()">Projects</a>
+    <a href="#projects" (click)="toggle()">About</a>
+    <a href="#projects" (click)="toggle()">Contact</a>
+  </div>
+</div>

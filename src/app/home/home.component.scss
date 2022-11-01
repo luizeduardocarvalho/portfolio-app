@@ -1,0 +1,30 @@
+.home {
+    height: 100%;
+    padding-inline: 2rem;
+    z-index: 1;
+}
+
+.title-primary {
+    color: var(--cl-primary);
+    font-size: 1.8rem;
+    padding-bottom: 0.6rem;
+}
+
+.title-secondary {
+    color: var(--cl-primary);
+    font-size: 1.2rem;
+    padding-bottom: 4rem;
+}
+
+.action-button {
+    position: relative;
+    z-index: 1;
+    padding: 1rem;
+
+    font-size: 1.2rem;
+
+    border: 2px solid var(--cl-primary);
+    border-radius: 1rem;
+
+    color: var(--cl-primary);
+}

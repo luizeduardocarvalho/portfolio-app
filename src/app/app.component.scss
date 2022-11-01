@@ -1,0 +1,38 @@
+.header {
+    height: calc(var(--vh, 1vh) * 7);
+}
+
+.body {
+    height: calc(var(--vh, 1vh) * 88);
+    padding-inline: 1rem;
+    overflow: scroll;
+}
+
+.wrapper {
+    z-index: 1;
+}
+
+.home-section {
+    z-index: 1;
+    height: calc(var(--vh, 1vh) * 88);
+    display: flex;
+    align-items: center;
+}
+
+.projects-section {
+    height: calc(var(--vh, 1vh) * 88);
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.footer {
+    height: calc(var(--vh, 1vh) * 5);
+}

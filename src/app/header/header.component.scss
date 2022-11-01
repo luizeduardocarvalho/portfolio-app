@@ -1,0 +1,32 @@
+.wrapper {
+    height: 100%;
+}
+
+.menu {
+    position: relative;
+    height: 100%;
+    padding-inline: 1.5rem;
+    z-index: 99;
+
+    background-color: var(--cl-primary);
+    color: var(--tx-primary);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-tab {
+    position: relative;
+    z-index: 9;
+    padding-block: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+    font-size: 1.3rem;
+}
